@@ -132,7 +132,7 @@ ConnectorImpl::ConnectorImpl(MainLink * main, AuxBus * auxBus, Timer * timer, Co
     hal->setPC2Disabled(main->isPC2Disabled());
 
     //
-    // If a GPU is DP1.2 or DP1.4 supported then set these capalibilities.
+    // If a GPU is DP1.2 or DP1.4 supported then set these capabilities.
     // This is used for accessing DP1.2/DP1.4 specific register space & features
     //
     hal->setGpuDPSupportedVersions(main->getGpuDpSupportedVersions());
